@@ -38,7 +38,11 @@ def get_data():
 
 if __name__ == '__main__':
     app.run(debug=True)
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 73ec2852ed744e02754160423aed3197b13af2e2
     """https://github.com/chanchalsiet/CloudBerry_Assignment/tree/main/day8"""
 """Http error Codes :
                 200 --Succuess -- Request was successful
@@ -52,4 +56,8 @@ if __name__ == '__main__':
                 500 --Internal server Error --Server is in unexpected condition to  process the request
                 502,504 -- Bad Gateway ---Got a invalid response from the upstream server
                 503 -- Service unavailable --- Server is not in responding to fulfill the request
+<<<<<<< HEAD
 """
+=======
+"""
+>>>>>>> 73ec2852ed744e02754160423aed3197b13af2e2
