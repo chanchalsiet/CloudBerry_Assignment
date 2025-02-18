@@ -38,3 +38,18 @@ def get_data():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    """https://github.com/chanchalsiet/CloudBerry_Assignment/tree/main/day8"""
+"""Http error Codes :
+                200 --Succuess -- Request was successful
+                201 --Created – A new resource was created (e.g., feedback submitted).
+                204 --No Content – Request successful, but no response body.
+                400 --Bad request --Request has invalid syntax
+                401 --Unauthorized access --Client need to authorize the request
+                403 --Forbidden --Client dosent have the access to access the request
+                404 --Page not found -- Page not found
+                408 -- Request timed out ---Session timed out waiting for the request
+                500 --Internal server Error --Server is in unexpected condition to  process the request
+                502,504 -- Bad Gateway ---Got a invalid response from the upstream server
+                503 -- Service unavailable --- Server is not in responding to fulfill the request
+"""

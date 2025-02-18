@@ -20,7 +20,8 @@ if sum_of_square:
     print("Sum of square is :", sum_of_square)
 
 
-"""2.Write a function reverse_string that takes a string as input and returns the string reversed. Ensure the
+"""
+2.Write a function reverse_string that takes a string as input and returns the string reversed. Ensure the
 function handles empty strings and non-string inputs gracefully."""
 def reverse_string(string):
     try:
@@ -38,4 +39,23 @@ string = input("Enter a string: ")
 reversed_string = reverse_string(string)
 if reversed_string:
     print("Reversed string:", reversed_string)
+
+"""
+3.Research two real-world scenarios where error handling is crucial (e.g., payment processing, file uploads).
+"""
+"""A. payment processing"""
+
+def process_payment(amount, balance):
+    if amount > balance:
+        raise ValueError("Insufficient amount for payment")
+    return balance - amount
+try :
+    user_balance = 2000
+    payment_amount = 2500
+    new_balance = process_payment(payment_amount, user_balance)
+    print("Payment successful. Balance : ", new_balance)
+except ValueError as ve:
+    print("Payment Failed: ", ve )
+
+
 
